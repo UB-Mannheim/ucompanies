@@ -1,7 +1,7 @@
 # ucompanies
 
 * downloading PDF-forms
-* exctracting texts (including check marks) from the PDF-forms using pdfplumber
+* extracting texts (including check marks) from the PDF-forms using pdfplumber
 * structuring the texts into CSV- and DTA-files
 
 
