@@ -179,9 +179,9 @@ def extract_fields_from_pdf(pdf_path):
             elif 'Контактна особа' in line:
                 results['Contact Person'] = lines[i+1].strip()
             elif 'Відомості щодо отримання державної допомоги' in line:
-                results['Received State Relocation Assistance'] = lines[i+1].strip()
+                results['Received State Relocation Assistance'] = lines[i+2].strip()
             elif 'Відомості щодо отримання будь-якої іншої державної допомоги' in line:
-                results['Received Other Assistance'] = lines[i+1].strip()
+                results['Received Other Assistance'] = lines[i+2].strip()
             elif 'Збитки, які зазнали у зв’язку із веденням бойових дій' in line:
                 for j in range(i + 1, i + 10):
                     if j < len(lines):
